@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    margin: 0;
+    flex-direction: row;
+    background-image: url(/DALL·E\ 2025-02-22\ 13.50.21\ -\ A\ futuristic\ digital\ storage\ concept\ background\,\ featuring\ a\ glowing\ data\ cloud\,\ circuit\ board\ patterns\,\ and\ holographic\ file\ icons\ floating\ in\ a\ deep.webp);
+  }
+
+  
+  .pricing-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .pricing-plan {
+    background: rgb(238, 166, 166);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px rgb(203, 206, 210);
+  }
+  
+  .plan-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .plan-price {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .plan-features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .plan-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .plan-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 800px) {
+    .pricing-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
